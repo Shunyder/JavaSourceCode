@@ -28,7 +28,7 @@ public class mainController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: 修正しますた").append(request.getContextPath());
+		response.getWriter().append("Served at: servletへようこそ").append(request.getContextPath());
 	}
 
 	/**
